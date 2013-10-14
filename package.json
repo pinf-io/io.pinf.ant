@@ -4,17 +4,28 @@
 	"version": "0.1.0",
 	"pm": "sm",
 	"bin": {
-		"ant": "./.sm/bin/ant"
+		"ant": "./bin/ant"
 	},
 	"mappings": {
 		"ant": [
 			"archive",
-			"http://mirror.its.dal.ca/apache//ant/binaries/apache-ant-1.9.2-bin.zip", {
+			"http://mirror.its.dal.ca/apache//ant/binaries/apache-ant-1.9.2-bin.zip",
+			{
 				"descriptor": {
 					"bin": {
 						"ant": "./bin/ant"
 					}
 				}
+			}
+		]
+	},
+	"optionalMappings": {
+		"maven-ant-tasks": [
+			"url",
+			"http://apache.mirror.gtcomm.net/maven/ant-tasks/2.1.3/binaries/maven-ant-tasks-2.1.3.jar",
+			{
+				"checksum": "md5:7ce48382d1aa4138027a58ec2f29beda",
+				"signature": "pgp:iEYEABECAAYFAk2lWn4ACgkQx8oZt7Yg14ekCwCcDKYaItv5ZSveQc9F2cA5RfbDxqEAnj84GqcaJzSY5d2UJ2Qn1ipglztd=tXix"
 			}
 		]
 	}
