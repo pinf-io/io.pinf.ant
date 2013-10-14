@@ -1,0 +1,21 @@
+{
+    "uid": "github.com/pinf-io/io.pinf.ant",
+	"name": "io.pinf.ant",
+	"version": "0.1.0",
+	"pm": "sm",
+	"bin": {
+		"ant": "./.sm/bin/ant"
+	},
+	"mappings": {
+		"ant": [
+			"archive",
+			"http://mirror.its.dal.ca/apache//ant/binaries/apache-ant-1.9.2-bin.zip", {
+				"descriptor": {
+					"bin": {
+						"ant": "./bin/ant"
+					}
+				}
+			}
+		]
+	}
+}
